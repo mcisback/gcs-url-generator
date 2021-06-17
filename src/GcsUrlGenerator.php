@@ -3,8 +3,8 @@
 namespace NathanDunn\UrlGenerator;
 
 use DateTimeInterface;
-use Spatie\MediaLibrary\UrlGenerator\BaseUrlGenerator;
-use Spatie\MediaLibrary\UrlGenerator\UrlGenerator;
+use Spatie\MediaLibrary\Support\UrlGenerator\BaseUrlGenerator;
+use Spatie\MediaLibrary\Support\UrlGenerator\UrlGenerator;
 
 class GcsUrlGenerator extends BaseUrlGenerator implements UrlGenerator
 {
